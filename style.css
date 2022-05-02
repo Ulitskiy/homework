@@ -1,0 +1,24 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+.image{
+    width: 700px;
+    height: 400px;
+}
+.container-btn{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+}
+.switch-btn{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
